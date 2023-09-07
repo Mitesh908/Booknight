@@ -15,6 +15,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
+
 
 
 @NgModule({
@@ -39,6 +41,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     MessagesComponent,
     HeroSearchComponent,
     NavbarComponent,
+    LoginComponent
     
     
   ],

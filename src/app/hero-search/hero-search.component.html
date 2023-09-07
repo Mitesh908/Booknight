@@ -1,7 +1,6 @@
 <div id="search-component">
   <label for="search-box">Book Search</label>
-  <input #searchBox id="search-box" (input)="search(searchBox.value)" />
-
+  <input #searchBox id="search-box" (input)="search(searchBox.value)" /> 
   <ul class="search-result">
     <li *ngFor="let hero of heroes$ | async" >
       <a routerLink="/detail/{{hero.id}}">
@@ -9,5 +8,21 @@
       </a>
     </li>
   </ul>
+  <div class="row">
+    <div class="column nature">
+      <div class="content">
+        <img src="/w3images/lights.jpg" alt="comicbook" style="width:100%">
+        <h4>Comic</h4>
+        <p>comics..</p>
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+        <img src="/w3images/lights.jpg" alt="adventure" style="width:100%">
+        <h4>Adventure</h4>
+        <p>adventure that excites the world..</p>
+      </div>
+    </div>
+  
 </div>
 
